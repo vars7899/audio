@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.controls{
+    padding: 10px 0;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#audio{
+    margin-bottom: 10px;
+    width: 40%;
+    min-width: 300px;
+}
+input{
+    padding: 10px 10px;
+    outline: none;
+    z-index: 20;
+    background-color: aliceblue;
+}
+#canvas{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+a{
+    color: #fff;
+    font-weight: bolder;
+}
+.msg{
+    font-family: 'Kalam', cursive;
+    color: #fff;
+}
